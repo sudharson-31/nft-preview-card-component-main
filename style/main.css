@@ -1,0 +1,140 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  min-width: 375px;
+  height: 100%;
+}
+
+body {
+  background-color: #0d192b;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+}
+
+.card {
+  z-index: 1;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #14253d;
+  box-shadow: 8px 8px #0d192b;
+}
+.card .img-container {
+  padding-top: 20px;
+  display: flex;
+  width: inherit;
+  height: max-content;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+.card .img-container .img {
+  display: inline;
+  width: 260px;
+  border-radius: 8px;
+}
+.card .img-container .img:hover {
+  background-image: url("imagesicon-view.svg");
+  z-index: 3;
+  opacity: 0.6;
+}
+.card .content {
+  text-align: left;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  padding: 0px 20px;
+}
+.card .content:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+.card .content p {
+  font-family: inherit;
+  font-weight: 400;
+  color: #8bacda;
+  padding-top: 20px;
+  word-spacing: 1px;
+}
+.card .side-c {
+  width: inherit;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.card .side-c .eth {
+  display: inherit;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: #00fff7;
+  align-items: center;
+}
+.card .side-c .eth img {
+  display: flex;
+  padding: 0px 8px 0px 20px;
+}
+.card .side-c .days {
+  display: flex;
+  font-family: inherit;
+  padding-right: 20px;
+  font-weight: inherit;
+  color: #8bacda;
+  align-items: center;
+}
+.card .side-c .days img {
+  padding-right: 6px;
+  display: flex;
+  align-content: center;
+}
+.card .final {
+  display: inline-flex;
+  float: left;
+  width: 85%;
+  border-top: 2px #2f415b solid;
+  padding-top: 15px;
+  font-family: "Outfit", sans-serif;
+  color: #8bacda;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: medium;
+}
+.card .final .avatar {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  border: 1px white solid;
+  border-radius: 50px;
+}
+.card .final .avatar img {
+  display: inline-block;
+  border-radius: 500px;
+  width: 30px;
+  height: 30px;
+}
+.card .final p {
+  padding-left: 10px;
+  font-size: "Outfit", sans-serif;
+  color: #8bacda;
+  letter-spacing: 1px;
+  font-size: small;
+}
+.card .final a {
+  color: white;
+}
+.card .final a:hover {
+  color: #00fff7;
+}
+
+/*# sourceMappingURL=main.css.map */
