@@ -58,7 +58,7 @@ body {
   mix-blend-mode: lighten;
 }
 .card .img-container a:hover .imga {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 .card .img-container a:hover .icon {
   z-index: 4;
