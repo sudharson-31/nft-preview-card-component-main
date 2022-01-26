@@ -54,6 +54,7 @@ body {
   border-radius: 8px;
 }
 .card .img-container a:hover {
+  cursor: pointer;
   background-color: #00fff7;
   mix-blend-mode: lighten;
 }
@@ -153,6 +154,7 @@ body {
 }
 .card .final a:hover {
   color: #00fff7;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

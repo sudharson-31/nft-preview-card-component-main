@@ -57,6 +57,7 @@ body{
            
             }
             &:hover{
+                cursor: pointer;
                 background-color: $cyan;
                 mix-blend-mode: lighten;
                 .imga{
@@ -161,6 +162,7 @@ body{
             color: $white;
             &:hover{
                 color: $cyan;
+                cursor: pointer;
             }
         }
     }
