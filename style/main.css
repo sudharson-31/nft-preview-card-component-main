@@ -36,15 +36,33 @@ body {
   padding-bottom: 20px;
   justify-content: center;
 }
-.card .img-container .img {
+.card .img-container a {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+.card .img-container a .icon {
+  display: inline-flex;
+  position: absolute;
+  opacity: 0;
+  align-self: center;
+}
+.card .img-container a .imga {
+  background-color: #00fff7;
   display: inline;
   width: 260px;
   border-radius: 8px;
 }
-.card .img-container .img:hover {
-  background-image: url("imagesicon-view.svg");
-  z-index: 3;
+.card .img-container a:hover {
+  background-color: #00fff7;
+  mix-blend-mode: lighten;
+}
+.card .img-container a:hover .imga {
   opacity: 0.6;
+}
+.card .img-container a:hover .icon {
+  z-index: 4;
+  opacity: 2;
 }
 .card .content {
   text-align: left;

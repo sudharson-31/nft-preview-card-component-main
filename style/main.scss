@@ -38,16 +38,37 @@ body{
         height: max-content;
         padding-bottom: 20px;
         justify-content: center;
-        .img{
+        a{
+            
+            display: flex;
+            justify-content: center;
+            border-radius: 8px;
+        .icon{
+            display: inline-flex;
+            position: absolute;
+            opacity: 0;
+            align-self: center;
+        }
+        .imga{
+            background-color: $cyan;
             display: inline;
             width: 260px;
-            border-radius: 8px;
-            &:hover{
-                background-image: url('images\icon-view.svg');
-                z-index: 3;
-                opacity: 0.6;
+            border-radius: 8px; 
+           
             }
+            &:hover{
+                background-color: $cyan;
+                mix-blend-mode: lighten;
+                .imga{
+                    opacity: 0.6;
+                }
+                .icon{
+                    z-index: 4;
+                    opacity: 2;
+                }
         }
+    }
+        
     }
     .content{
         text-align: left;
